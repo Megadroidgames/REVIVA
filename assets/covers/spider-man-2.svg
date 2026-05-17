@@ -1,0 +1,40 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b0000"/>
+      <stop offset="0.46" stop-color="#171b22"/>
+      <stop offset="1" stop-color="#030507"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(230 305) rotate(55) scale(500)">
+      <stop stop-color="#ff3131" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="18" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" rx="46" fill="url(#bg)"/>
+  <rect width="900" height="1200" rx="46" fill="url(#glow)"/>
+  <g opacity="0.38" stroke="#ffffff" stroke-width="5">
+    <path d="M450 0V1200"/>
+    <path d="M0 600H900"/>
+    <path d="M83 85L817 1115"/>
+    <path d="M817 85L83 1115"/>
+    <path d="M450 600 C250 380 195 220 180 70"/>
+    <path d="M450 600 C650 380 705 220 720 70"/>
+    <path d="M450 600 C250 820 195 980 180 1130"/>
+    <path d="M450 600 C650 820 705 980 720 1130"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M450 308 C548 308 632 386 632 500 C632 676 500 736 450 855 C400 736 268 676 268 500 C268 386 352 308 450 308Z" fill="#d61f1f"/>
+    <path d="M450 358 C524 358 584 420 584 506 C584 638 493 700 450 780 C407 700 316 638 316 506 C316 420 376 358 450 358Z" fill="#111820"/>
+    <path d="M386 480 C412 458 438 458 450 490 C462 458 488 458 514 480 C489 486 466 505 450 535 C434 505 411 486 386 480Z" fill="white"/>
+    <path d="M363 602 C422 655 478 655 537 602" stroke="#ffffff" stroke-width="20" stroke-linecap="round"/>
+  </g>
+  <text x="72" y="130" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="8">REVIVA FIX</text>
+  <text x="72" y="235" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="900">MARVEL'S</text>
+  <text x="72" y="318" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="900">SPIDER-MAN 2</text>
+  <text x="72" y="382" fill="#ff7b72" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">RX 580 • POLARIS FIX</text>
+  <rect x="72" y="1020" width="292" height="64" rx="32" fill="#d61f1f"/>
+  <text x="112" y="1063" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">FIX DISPONÍVEL</text>
+</svg>

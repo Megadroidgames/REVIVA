@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reviva — Compatibilidade para GPUs Antigas</title>
+<meta name="description" content="Fixes, patches e compatibilidade para jogos modernos em GPUs antigas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container nav">
+    <div class="logo">
+      <span class="dot"></span>
+      <h1>REVIVA</h1>
+    </div>
+
+    <nav>
+      <a href="#fixes">Fixes</a>
+      <a href="#fixes">Projetos</a>
+      <a href="#community">Comunidade</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="language-switcher" aria-label="Selecionar idioma">
+        <button class="lang-btn active" type="button" data-lang="pt-BR">PT</button>
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="ru">RU</button>
+        <button class="lang-btn" type="button" data-lang="es">ES</button>
+      </div>
+      <a class="support-btn" href="support.html">☕ Apoie</a>
+      <a class="discord-btn" href="https://discord.gg/UWGq4SWQtj" target="_blank" rel="noopener">Discord</a>
+      <a class="github-btn" href="https://github.com/Megadroidgames" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">COMPATIBILITY PROJECT</div>
+      <h2>Faça jogos modernos rodarem em GPUs antigas.</h2>
+
+      <p>
+        A Reviva desenvolve fixes, patches e soluções para jogos atuais
+        funcionarem em placas de vídeo antigas ou sem suporte oficial.
+        RX 500 Series, GTX antigas, iGPUs AMD e muito mais.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="primary js-scroll" href="#fixes">Explorar Fixes</a>
+        <a class="support-hero" href="support.html">☕ Compre um café</a>
+        <a class="secondary" href="https://github.com/Megadroidgames" target="_blank" rel="noopener">GitHub</a>
+        <a class="discord-hero" href="https://discord.gg/UWGq4SWQtj" target="_blank" rel="noopener">Entrar no Discord</a>
+      </div>
+
+      <div class="stats">
+        <div>
+          <strong>2+</strong>
+          <span>Fixes</span>
+        </div>
+
+        <div>
+          <strong>100+</strong>
+          <span>Downloads</span>
+        </div>
+
+        <div>
+          <strong>8+</strong>
+          <span>GPUs testadas</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="terminal">
+        <div class="terminal-top">
+          <span></span><span></span><span></span>
+        </div>
+
+<pre>
+[REVIVA ENGINE]
+
+✔ Forza Horizon 6
+✔ Marvel's Spider-Man 2
+
+Supported GPUs:
+RX 550 / RX 560
+RX 570 / RX 580
+RX 590 Polaris
+
+Status:
+Community compatibility fixes loaded.
+GitHub repositories online.
+</pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container cards">
+
+    <div class="card">
+      <h3>Compatibilidade Avançada</h3>
+      <p>
+        Patches para bypass de validações,
+        correções DirectX, Vulkan e shaders.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Foco em Hardware Antigo</h3>
+      <p>
+        Reviva GPUs Polaris, Pascal, Vega e gráficos integrados.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Atualizações Frequentes</h3>
+      <p>
+        Novos fixes adicionados constantemente conforme os lançamentos.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="fixes" class="fixes">
+  <div class="container">
+    <div class="section-title">
+      <h2>Fixes Populares</h2>
+      <p>Projetos mais baixados da comunidade.</p>
+    </div>
+
+    
+<div class="repo-grid">
+
+      <div class="repo-card">
+        <div class="repo-top">
+          <h3>Forza Horizon 6 RX 580 Fix</h3>
+          <span>Stable</span>
+        </div>
+        <p>
+          Correção para os erros FH201 e FH205 no Forza Horizon 6.
+          Compatível com GPUs Polaris RX 500 Series.
+        </p>
+        <div class="tags">
+          <span>FH201</span>
+          <span>FH205</span>
+          <span>RX 580</span>
+        </div>
+
+        <div class="repo-actions">
+          <a class="download-link"
+             href="https://github.com/Megadroidgames/Forza-Horizon-6-RX-580-FH201-FH205-Fix/archive/refs/heads/main.zip"
+             target="_blank" rel="noopener">
+             <span class="download-icon">⬇</span>
+             Baixar Fix
+          </a>
+          <a class="repo-link"
+             href="https://github.com/Megadroidgames/Forza-Horizon-6-RX-580-FH201-FH205-Fix"
+             target="_blank" rel="noopener">
+             Ver Projeto
+          </a>
+        </div>
+      </div>
+
+      <div class="repo-card">
+        <div class="repo-top">
+          <h3>Marvel's Spider-Man 2 RX 580 Fix</h3>
+          <span>Testing</span>
+        </div>
+        <p>
+          Fix experimental para inicialização e compatibilidade
+          em GPUs AMD Polaris.
+        </p>
+        <div class="tags">
+          <span>Spider-Man 2</span>
+          <span>Polaris</span>
+          <span>AMD</span>
+        </div>
+
+        <div class="repo-actions">
+          <a class="download-link"
+             href="https://github.com/Megadroidgames/Marvel-s-Spider-Man-2-RX-580-Fix/archive/refs/heads/main.zip"
+             target="_blank" rel="noopener">
+             <span class="download-icon">⬇</span>
+             Baixar Fix
+          </a>
+          <a class="repo-link"
+             href="https://github.com/Megadroidgames/Marvel-s-Spider-Man-2-RX-580-Fix"
+             target="_blank" rel="noopener">
+             Ver Projeto
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="games" class="games">
+  <div class="container">
+    <div class="section-title">
+      <h2>Jogos Compatíveis</h2>
+      <p>Títulos com fix disponível oficialmente nos repositórios da Megadroidgames.</p>
+    </div>
+
+    <div class="game-list">
+      <article class="game-card">
+        <a class="game-cover" href="https://github.com/Megadroidgames/Forza-Horizon-6-RX-580-FH201-FH205-Fix" target="_blank" rel="noopener" aria-label="Abrir projeto Forza Horizon 6 RX 580 Fix">
+          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/711e39803402def82a90e1f31578c64744f952f3/library_capsule.jpg" alt="Forza Horizon 6 RX 580 Fix" loading="lazy">
+        </a>
+        <div class="game-info">
+          <span class="game-status">Stable</span>
+          <h3>Forza Horizon 6</h3>
+          <p>Fix para FH201/FH205 em GPUs RX 500 Series Polaris.</p>
+          <div class="game-actions">
+            <a class="download-link" href="https://github.com/Megadroidgames/Forza-Horizon-6-RX-580-FH201-FH205-Fix/archive/refs/heads/main.zip" target="_blank" rel="noopener">
+              <span class="download-icon">⬇</span>
+              Baixar Fix
+            </a>
+            <a class="repo-link" href="https://github.com/Megadroidgames/Forza-Horizon-6-RX-580-FH201-FH205-Fix" target="_blank" rel="noopener">Ver Projeto</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="game-card">
+        <a class="game-cover" href="https://github.com/Megadroidgames/Marvel-s-Spider-Man-2-RX-580-Fix" target="_blank" rel="noopener" aria-label="Abrir projeto Marvel's Spider-Man 2 RX 580 Fix">
+          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2651280/6fa28738ef8cde05390d3f0a9b942185b5763cbd/library_600x900.jpg" alt="Marvel's Spider-Man 2 RX 580 Fix" loading="lazy">
+        </a>
+        <div class="game-info">
+          <span class="game-status testing">Testing</span>
+          <h3>Marvel's Spider-Man 2</h3>
+          <p>Fix experimental para inicialização e compatibilidade em AMD Polaris.</p>
+          <div class="game-actions">
+            <a class="download-link" href="https://github.com/Megadroidgames/Marvel-s-Spider-Man-2-RX-580-Fix/archive/refs/heads/main.zip" target="_blank" rel="noopener">
+              <span class="download-icon">⬇</span>
+              Baixar Fix
+            </a>
+            <a class="repo-link" href="https://github.com/Megadroidgames/Marvel-s-Spider-Man-2-RX-580-Fix" target="_blank" rel="noopener">Ver Projeto</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="community" class="community">
+  <div class="container community-box">
+    <div>
+      <h2>Comunidade Reviva</h2>
+      <p>
+        Sugira jogos, reporte crashes,
+        compartilhe benchmarks e ajude no desenvolvimento dos fixes.
+      </p>
+    </div>
+
+    <div class="community-actions">
+      <a class="primary" href="https://github.com/Megadroidgames" target="_blank" rel="noopener">Ver no GitHub</a>
+      <a class="support-hero" href="support.html">☕ Apoiar projeto</a>
+      <a class="discord-hero" href="https://discord.gg/UWGq4SWQtj" target="_blank" rel="noopener">Entrar no Discord</a>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faq">
+  <div class="container">
+    <div class="section-title">
+      <h2>FAQ</h2>
+    </div>
+
+    <div class="faq-item">
+      <h4>Os fixes são seguros?</h4>
+      <p>
+        Todos os projetos são testados pela comunidade antes de serem marcados como Stable.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Quais GPUs possuem suporte?</h4>
+      <p>
+        RX 400/500 Series, GTX Pascal/Maxwell, Vega e algumas iGPUs.
+      </p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Posso sugerir um jogo?</h4>
+      <p>
+        Sim. A comunidade ajuda a escolher os próximos projetos.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container footer">
+    <div>
+      <h3>REVIVA</h3>
+      <p>Legacy GPU Compatibility Project</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://discord.gg/UWGq4SWQtj" target="_blank" rel="noopener">Discord</a>
+      <a href="https://github.com/Megadroidgames" target="_blank" rel="noopener">GitHub</a>
+      <a href="support.html" class="footer-support-link">Apoie</a>
+      <p>© 2026 Reviva</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
