@@ -2,7 +2,7 @@ const translations = {
   'pt-BR': {
     title: 'Reviva — Compatibilidade para GPUs Antigas',
     description: 'Fixes, patches e compatibilidade para jogos modernos em GPUs antigas.',
-    nav: ['Fixes', 'Projetos', 'Comunidade', 'FAQ'],
+    nav: ['Fixes', 'Projetos', 'Comunidade', 'YouTube', 'FAQ'],
     heroBadge: 'PROJETO DE COMPATIBILIDADE',
     heroTitle: 'Faça jogos modernos rodarem em GPUs antigas.',
     heroText: 'A Reviva desenvolve fixes, patches e soluções para jogos atuais funcionarem em placas de vídeo antigas ou sem suporte oficial. RX 500 Series, GTX antigas, iGPUs AMD e muito mais.',
@@ -12,7 +12,7 @@ const translations = {
     supportCoffee: '☕ Compre um café',
     supportProject: '☕ Apoiar projeto',
     stats: ['Fixes', 'Downloads', 'GPUs testadas'],
-    terminal: `[REVIVA ENGINE]\n\n✔ Forza Horizon 6\n✔ Marvel's Spider-Man 2\n\nGPUs suportadas:\nRX 550 / RX 560\nRX 570 / RX 580\nRX 590 Polaris\n\nStatus:\nFixes de compatibilidade carregados.\nRepositórios GitHub online.`,
+    terminal: `[REVIVA ENGINE]\n\n✔ Forza Horizon 6\n✔ Marvel's Spider-Man 2\n✔ Crimson Desert (em teste)\n\nGPUs suportadas:\nRX 550 / RX 560\nRX 570 / RX 580\nRX 590 Polaris\n\nStatus:\nFixes de compatibilidade carregados.\nRepositórios GitHub online.`,
     features: [
       ['Compatibilidade Avançada', 'Patches para bypass de validações, correções DirectX, Vulkan e shaders.'],
       ['Foco em Hardware Antigo', 'Reviva GPUs Polaris, Pascal, Vega e gráficos integrados.'],
@@ -22,7 +22,8 @@ const translations = {
     fixesSubtitle: 'Projetos mais baixados da comunidade.',
     repoDescriptions: [
       'Correção para os erros FH201 e FH205 no Forza Horizon 6. Compatível com GPUs Polaris RX 500 Series.',
-      'Fix experimental para inicialização e compatibilidade em GPUs AMD Polaris.'
+      'Fix experimental para inicialização e compatibilidade em GPUs AMD Polaris.',
+      'Fix experimental para tentar rodar Crimson Desert em GPUs AMD RX 580 / RX 500 Series Polaris.'
     ],
     stable: 'Stable',
     testing: 'Testing',
@@ -32,8 +33,13 @@ const translations = {
     gamesSubtitle: 'Títulos com fix disponível oficialmente nos repositórios da Megadroidgames.',
     gameDescriptions: [
       'Fix para FH201/FH205 em GPUs RX 500 Series Polaris.',
-      'Fix experimental para inicialização e compatibilidade em AMD Polaris.'
+      'Fix experimental para inicialização e compatibilidade em AMD Polaris.',
+      'Fix experimental em teste para GPUs AMD RX 580 / RX 500 Series Polaris.'
     ],
+    youtubeSubscribe: '▶ Inscreva-se',
+    youtubeTitle: 'Inscreva-se no canal MEGA DRØID',
+    youtubeText: 'Acompanhe vídeos de testes, tutoriais dos fixes, atualizações do projeto REVIVA e novidades para quem usa RX 580 / GPUs Polaris.',
+    youtubeButton: '▶ Inscrever-se no canal',
     communityTitle: 'Comunidade Reviva',
     communityText: 'Sugira jogos, reporte crashes, compartilhe benchmarks e ajude no desenvolvimento dos fixes.',
     githubView: 'Ver no GitHub',
@@ -49,7 +55,7 @@ const translations = {
   en: {
     title: 'Reviva — Compatibility for Older GPUs',
     description: 'Fixes, patches and compatibility solutions for modern games on older GPUs.',
-    nav: ['Fixes', 'Projects', 'Community', 'FAQ'],
+    nav: ['Fixes', 'Projects', 'Community', 'YouTube', 'FAQ'],
     heroBadge: 'COMPATIBILITY PROJECT',
     heroTitle: 'Make modern games run on older GPUs.',
     heroText: 'Reviva develops fixes, patches and solutions so current games can run on older graphics cards or hardware without official support. RX 500 Series, older GTX cards, AMD iGPUs and more.',
@@ -59,7 +65,7 @@ const translations = {
     supportCoffee: '☕ Buy me a coffee',
     supportProject: '☕ Support project',
     stats: ['Fixes', 'Downloads', 'GPUs tested'],
-    terminal: `[REVIVA ENGINE]\n\n✔ Forza Horizon 6\n✔ Marvel's Spider-Man 2\n\nSupported GPUs:\nRX 550 / RX 560\nRX 570 / RX 580\nRX 590 Polaris\n\nStatus:\nCommunity compatibility fixes loaded.\nGitHub repositories online.`,
+    terminal: `[REVIVA ENGINE]\n\n✔ Forza Horizon 6\n✔ Marvel's Spider-Man 2\n✔ Crimson Desert (testing)\n\nSupported GPUs:\nRX 550 / RX 560\nRX 570 / RX 580\nRX 590 Polaris\n\nStatus:\nCommunity compatibility fixes loaded.\nGitHub repositories online.`,
     features: [
       ['Advanced Compatibility', 'Patches for validation bypasses, DirectX, Vulkan and shader fixes.'],
       ['Focused on Older Hardware', 'Bring Polaris, Pascal, Vega and integrated graphics back to life.'],
@@ -69,7 +75,8 @@ const translations = {
     fixesSubtitle: 'Most downloaded community projects.',
     repoDescriptions: [
       'Fix for FH201 and FH205 errors in Forza Horizon 6. Compatible with Polaris RX 500 Series GPUs.',
-      'Experimental fix for startup and compatibility on AMD Polaris GPUs.'
+      'Experimental fix for startup and compatibility on AMD Polaris GPUs.',
+      'Experimental fix to try running Crimson Desert on AMD RX 580 / RX 500 Series Polaris GPUs.'
     ],
     stable: 'Stable',
     testing: 'Testing',
@@ -79,8 +86,13 @@ const translations = {
     gamesSubtitle: 'Titles with fixes officially available in Megadroidgames repositories.',
     gameDescriptions: [
       'Fix for FH201/FH205 on RX 500 Series Polaris GPUs.',
-      'Experimental fix for startup and compatibility on AMD Polaris.'
+      'Experimental fix for startup and compatibility on AMD Polaris.',
+      'Experimental testing fix for AMD RX 580 / RX 500 Series Polaris GPUs.'
     ],
+    youtubeSubscribe: '▶ Subscribe',
+    youtubeTitle: 'Subscribe to the MEGA DRØID channel',
+    youtubeText: 'Watch test videos, fix tutorials, REVIVA project updates and news for RX 580 / Polaris GPU users.',
+    youtubeButton: '▶ Subscribe to the channel',
     communityTitle: 'Reviva Community',
     communityText: 'Suggest games, report crashes, share benchmarks and help improve the fixes.',
     githubView: 'View on GitHub',
@@ -96,7 +108,7 @@ const translations = {
   ru: {
     title: 'Reviva — совместимость для старых GPU',
     description: 'Фиксы, патчи и решения совместимости для современных игр на старых GPU.',
-    nav: ['Фиксы', 'Проекты', 'Сообщество', 'FAQ'],
+    nav: ['Фиксы', 'Проекты', 'Сообщество', 'YouTube', 'FAQ'],
     heroBadge: 'ПРОЕКТ СОВМЕСТИМОСТИ',
     heroTitle: 'Запускайте современные игры на старых GPU.',
     heroText: 'Reviva разрабатывает фиксы, патчи и решения, чтобы современные игры работали на старых видеокартах или оборудовании без официальной поддержки. RX 500 Series, старые GTX, AMD iGPU и многое другое.',
@@ -106,7 +118,7 @@ const translations = {
     supportCoffee: '☕ Купить кофе',
     supportProject: '☕ Поддержать проект',
     stats: ['Фиксы', 'Загрузки', 'GPU протестировано'],
-    terminal: `[REVIVA ENGINE]\n\n✔ Forza Horizon 6\n✔ Marvel's Spider-Man 2\n\nПоддерживаемые GPU:\nRX 550 / RX 560\nRX 570 / RX 580\nRX 590 Polaris\n\nСтатус:\nФиксы совместимости загружены.\nРепозитории GitHub онлайн.`,
+    terminal: `[REVIVA ENGINE]\n\n✔ Forza Horizon 6\n✔ Marvel's Spider-Man 2\n✔ Crimson Desert (тестируется)\n\nПоддерживаемые GPU:\nRX 550 / RX 560\nRX 570 / RX 580\nRX 590 Polaris\n\nСтатус:\nФиксы совместимости загружены.\nРепозитории GitHub онлайн.`,
     features: [
       ['Расширенная совместимость', 'Патчи для обхода проверок, исправления DirectX, Vulkan и шейдеров.'],
       ['Фокус на старом железе', 'Возвращаем к жизни Polaris, Pascal, Vega и встроенную графику.'],
@@ -116,7 +128,8 @@ const translations = {
     fixesSubtitle: 'Самые скачиваемые проекты сообщества.',
     repoDescriptions: [
       'Исправление ошибок FH201 и FH205 в Forza Horizon 6. Совместимо с GPU Polaris RX 500 Series.',
-      'Экспериментальный фикс запуска и совместимости для GPU AMD Polaris.'
+      'Экспериментальный фикс запуска и совместимости для GPU AMD Polaris.',
+      'Экспериментальный фикс для запуска Crimson Desert на AMD RX 580 / RX 500 Series Polaris.'
     ],
     stable: 'Стабильно',
     testing: 'Тестируется',
@@ -126,8 +139,13 @@ const translations = {
     gamesSubtitle: 'Игры с официально доступными фиксами в репозиториях Megadroidgames.',
     gameDescriptions: [
       'Фикс FH201/FH205 для GPU RX 500 Series Polaris.',
-      'Экспериментальный фикс запуска и совместимости на AMD Polaris.'
+      'Экспериментальный фикс запуска и совместимости на AMD Polaris.',
+      'Экспериментальный тестовый фикс для AMD RX 580 / RX 500 Series Polaris.'
     ],
+    youtubeSubscribe: '▶ Подписаться',
+    youtubeTitle: 'Подпишитесь на канал MEGA DRØID',
+    youtubeText: 'Смотрите тесты, инструкции по фиксами, обновления проекта REVIVA и новости для пользователей RX 580 / Polaris GPU.',
+    youtubeButton: '▶ Подписаться на канал',
     communityTitle: 'Сообщество Reviva',
     communityText: 'Предлагайте игры, сообщайте о сбоях, делитесь тестами и помогайте улучшать фиксы.',
     githubView: 'Открыть GitHub',
@@ -143,7 +161,7 @@ const translations = {
   es: {
     title: 'Reviva — Compatibilidad para GPUs antiguas',
     description: 'Fixes, parches y soluciones de compatibilidad para juegos modernos en GPUs antiguas.',
-    nav: ['Fixes', 'Proyectos', 'Comunidad', 'FAQ'],
+    nav: ['Fixes', 'Proyectos', 'Comunidad', 'YouTube', 'FAQ'],
     heroBadge: 'PROYECTO DE COMPATIBILIDAD',
     heroTitle: 'Haz que los juegos modernos funcionen en GPUs antiguas.',
     heroText: 'Reviva desarrolla fixes, parches y soluciones para que los juegos actuales funcionen en tarjetas gráficas antiguas o sin soporte oficial. RX 500 Series, GTX antiguas, iGPUs AMD y mucho más.',
@@ -153,7 +171,7 @@ const translations = {
     supportCoffee: '☕ Invitar un café',
     supportProject: '☕ Apoyar proyecto',
     stats: ['Fixes', 'Descargas', 'GPUs probadas'],
-    terminal: `[REVIVA ENGINE]\n\n✔ Forza Horizon 6\n✔ Marvel's Spider-Man 2\n\nGPUs compatibles:\nRX 550 / RX 560\nRX 570 / RX 580\nRX 590 Polaris\n\nEstado:\nFixes de compatibilidad cargados.\nRepositorios de GitHub online.`,
+    terminal: `[REVIVA ENGINE]\n\n✔ Forza Horizon 6\n✔ Marvel's Spider-Man 2\n✔ Crimson Desert (en prueba)\n\nGPUs compatibles:\nRX 550 / RX 560\nRX 570 / RX 580\nRX 590 Polaris\n\nEstado:\nFixes de compatibilidad cargados.\nRepositorios de GitHub online.`,
     features: [
       ['Compatibilidad avanzada', 'Parches para bypass de validaciones, correcciones DirectX, Vulkan y shaders.'],
       ['Enfoque en hardware antiguo', 'Revive GPUs Polaris, Pascal, Vega y gráficos integrados.'],
@@ -163,7 +181,8 @@ const translations = {
     fixesSubtitle: 'Proyectos más descargados por la comunidad.',
     repoDescriptions: [
       'Corrección para los errores FH201 y FH205 en Forza Horizon 6. Compatible con GPUs Polaris RX 500 Series.',
-      'Fix experimental para inicio y compatibilidad en GPUs AMD Polaris.'
+      'Fix experimental para inicio y compatibilidad en GPUs AMD Polaris.',
+      'Fix experimental para intentar ejecutar Crimson Desert en GPUs AMD RX 580 / RX 500 Series Polaris.'
     ],
     stable: 'Estable',
     testing: 'En prueba',
@@ -173,8 +192,13 @@ const translations = {
     gamesSubtitle: 'Títulos con fix disponible oficialmente en los repositorios de Megadroidgames.',
     gameDescriptions: [
       'Fix para FH201/FH205 en GPUs RX 500 Series Polaris.',
-      'Fix experimental para inicio y compatibilidad en AMD Polaris.'
+      'Fix experimental para inicio y compatibilidad en AMD Polaris.',
+      'Fix experimental en prueba para GPUs AMD RX 580 / RX 500 Series Polaris.'
     ],
+    youtubeSubscribe: '▶ Suscríbete',
+    youtubeTitle: 'Suscríbete al canal MEGA DRØID',
+    youtubeText: 'Mira videos de pruebas, tutoriales de fixes, actualizaciones del proyecto REVIVA y novedades para usuarios de RX 580 / GPUs Polaris.',
+    youtubeButton: '▶ Suscribirse al canal',
     communityTitle: 'Comunidad Reviva',
     communityText: 'Sugiere juegos, reporta crashes, comparte benchmarks y ayuda al desarrollo de los fixes.',
     githubView: 'Ver en GitHub',
@@ -221,6 +245,11 @@ const setLanguage = (lang) => {
   setText('.discord-hero', t.joinDiscord, 1);
   setText('.support-btn', t.supportButton);
   setText('.hero-buttons .support-hero', t.supportCoffee);
+  setText('.hero-buttons .youtube-hero', t.youtubeSubscribe);
+  setText('.youtube-box h2', t.youtubeTitle);
+  setText('.youtube-box p', t.youtubeText);
+  setText('.youtube-actions .youtube-hero', t.youtubeButton);
+  setText('.youtube-actions .repo-link', t.githubView);
   setText('.community-actions .support-hero', t.supportProject);
   setText('.footer-support-link', t.supportButton.replace('☕ ', ''));
   setTexts('.stats span', t.stats);
@@ -285,7 +314,7 @@ const setLanguage = (lang) => {
   localStorage.setItem('reviva-lang', lang);
 };
 
-const cards = document.querySelectorAll('.repo-card, .card, .faq-item, .game-card');
+const cards = document.querySelectorAll('.repo-card, .card, .faq-item, .game-card, .youtube-box');
 
 const revealOnScroll = () => {
   cards.forEach((card) => {

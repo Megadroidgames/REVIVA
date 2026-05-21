@@ -12,6 +12,7 @@ Atualmente, o Reviva possui fixes disponíveis para:
 
 - **Forza Horizon 6**
 - **Marvel's Spider-Man 2**
+- **Crimson Desert** *(em teste)*
 
 A lista será atualizada conforme novos fixes forem criados e testados.
 
@@ -62,6 +63,12 @@ O Reviva não é afiliado à AMD, Microsoft, Steam, GitHub, Playground Games, In
 Os downloads oficiais dos fixes ficam disponíveis nos repositórios da **Megadroidgames**.
 
 Sempre baixe os arquivos pelos links oficiais para evitar versões modificadas por terceiros.
+
+### Links oficiais
+
+- Forza Horizon 6: https://github.com/Megadroidgames/Forza-Horizon-6-RX-580-FH201-FH205-Fix
+- Marvel's Spider-Man 2: https://github.com/Megadroidgames/Marvel-s-Spider-Man-2-RX-580-Fix
+- Crimson Desert (em teste): https://github.com/Megadroidgames/Crimson-Desert-RX-580-Polaris-Fix
 
 ---
 
@@ -142,3 +149,8 @@ The goal is to help users extend the life of older hardware by providing fixes f
 **Reviva** es un proyecto enfocado en crear fixes, ajustes y mejoras de compatibilidad para que los juegos modernos funcionen mejor en GPUs antiguas, especialmente tarjetas AMD Polaris como **RX 580, RX 570, RX 560 y RX 590**.
 
 El objetivo del proyecto es ayudar a los usuarios con hardware antiguo a ejecutar juegos que presentan errores de compatibilidad, bloqueos o problemas relacionados con drivers modernos.
+
+
+## YouTube
+
+Acompanhe o projeto REVIVA no canal **MEGA DRØID**: https://www.youtube.com/@Megadroidgames

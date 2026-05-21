@@ -117,6 +117,7 @@ max-width:650px;
 display:flex;
 gap:15px;
 margin-top:30px;
+flex-wrap:wrap;
 }
 
 .primary{
@@ -358,6 +359,99 @@ gap:12px;
 flex-wrap:wrap;
 }
 
+
+.youtube-section{
+padding:90px 0 20px;
+}
+
+.youtube-box{
+background:
+linear-gradient(135deg,#ff003333,#1f6feb22),
+#161b22;
+border:1px solid #30363d;
+padding:46px;
+border-radius:28px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:32px;
+overflow:hidden;
+position:relative;
+}
+
+.youtube-box::before{
+content:'';
+position:absolute;
+right:-60px;
+top:-80px;
+width:220px;
+height:220px;
+background:#ff003322;
+border-radius:50%;
+filter:blur(8px);
+}
+
+.youtube-content{
+position:relative;
+z-index:1;
+max-width:680px;
+}
+
+.youtube-badge{
+display:inline-flex;
+align-items:center;
+gap:8px;
+background:#ff003322;
+color:#ffb3c1;
+border:1px solid #ff4d6d66;
+padding:8px 14px;
+border-radius:999px;
+font-weight:900;
+font-size:.82rem;
+margin-bottom:16px;
+}
+
+.youtube-box h2{
+font-size:2.4rem;
+margin-bottom:12px;
+}
+
+.youtube-box p{
+color:#c9d1d9;
+line-height:1.75;
+}
+
+.youtube-actions{
+display:flex;
+gap:14px;
+flex-wrap:wrap;
+justify-content:flex-end;
+position:relative;
+z-index:1;
+}
+
+.youtube-hero{
+text-decoration:none;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+padding:12px 22px;
+border-radius:12px;
+font-weight:900;
+color:#fff;
+background:linear-gradient(135deg,#ff0033,#ff4d4d);
+border:1px solid #ff4d6d;
+box-shadow:0 12px 30px #ff003333;
+transition:transform .2s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+.youtube-hero:hover{
+transform:translateY(-2px);
+filter:brightness(1.08);
+box-shadow:0 16px 38px #ff003344;
+}
+
 .community{
 padding:90px 0;
 }
@@ -416,6 +510,7 @@ justify-content:space-between;
 .cards,
 .repo-grid,
 .game-list,
+.youtube-box,
 .community-box{
 grid-template-columns:1fr;
 display:grid;
@@ -444,7 +539,8 @@ gap:20px;
 .repo-card,
 .card,
 .faq-item,
-.game-card{
+.game-card,
+.youtube-box{
 opacity:0;
 transform:translateY(14px);
 transition:opacity .35s ease, transform .35s ease, border-color .2s ease;
@@ -453,7 +549,8 @@ transition:opacity .35s ease, transform .35s ease, border-color .2s ease;
 .repo-card.visible,
 .card.visible,
 .faq-item.visible,
-.game-card.visible{
+.game-card.visible,
+.youtube-box.visible{
 opacity:1;
 transform:translateY(0);
 }
@@ -496,6 +593,7 @@ transition:transform .2s ease, box-shadow .2s ease, filter .2s ease;
 
 .discord-btn:hover,
 .discord-hero:hover,
+.youtube-hero:hover,
 .download-link:hover,
 .github-btn:hover,
 .primary:hover,
@@ -590,12 +688,14 @@ display:none;
 .hero-buttons,
 .repo-actions,
 .game-actions,
+.youtube-actions,
 .community-actions,
 .footer-links{
 flex-direction:column;
 align-items:stretch;
 }
 .discord-hero,
+.youtube-hero,
 .download-link,
 .repo-link,
 .primary,
